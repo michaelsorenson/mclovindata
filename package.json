@@ -1,0 +1,26 @@
+{
+  "name": "mclovindata",
+  "version": "1.0.0",
+  "description": "UCSD DSC 106 Homework 2 with a Borderlands twist",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env $(cat .env) nodemon -e css,ejs,js,json --watch ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelsorenson/mclovindata.git"
+  },
+  "author": "michaelsorenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelsorenson/mclovindata/issues"
+  },
+  "homepage": "https://github.com/michaelsorenson/mclovindata",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0"
+  }
+}
