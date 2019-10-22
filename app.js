@@ -14,6 +14,11 @@ app.get('/', function (req, res) {
   });
 });
 
+app.get('/download', function (req, res) {
+  fileName = 'mcdonalds_data.pdf'
+  res.download( __dirname + '/views/public/ceopdf/' + fileName, fileName);
+});
+
 var server = app.listen( app.get('port'), function() {
   console.log( 'Listening on port ' + app.get('port') );
-});
+1``
